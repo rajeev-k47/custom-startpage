@@ -25,19 +25,19 @@ class Config {
 				urlPrefix: 'https://instagram.com/'	
 			},
 			'g/': {
-				urlPrefix: 'https://www.github.com/'
+				urlPrefix: 'https://github.com/'
 			},
 			'gr/': {
-				urlPrefix: 'https://www.github.com/rajeev-k47'
+				urlPrefix: 'https://github.com/rajeev-k47'
 			},
 			'cf/': {
-				urlPrefix: 'https://www.codeforces.com'
+				urlPrefix: 'https://codeforces.com'
 			},
 			'ws/': {
-				urlPrefix: 'https://www.whatsapp.com'
+				urlPrefix: 'https://whatsapp.com'
 			},
 			'c/': {
-				urlPrefix: 'https://www.chatgpt.com/'
+				urlPrefix: 'https://chatgpt.com/'
 			},
 			'l3/': {
 				urlPrefix: 'https://localhost:3000/'
