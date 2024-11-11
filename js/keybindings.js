@@ -23,6 +23,11 @@ class KeyBinding {
 
 		this._keysPressed[e.key] = true;
 
+		if(this._keysPressed['Control'] && e.key === 'Escape') {
+			e.preventDefault();
+			return;
+		}
+
 
 		if (this._keysPressed['Alt'] && e.key === 's') {
 
@@ -71,6 +76,11 @@ class KeyBinding {
 			}
 
 			// Show web menu
+			// 
+			return;
+		}
+
+		if (e.key === 'Home') {
 			webMenu.toggleWebMenu();
 			return;
 		}
