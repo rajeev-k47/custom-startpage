@@ -50,6 +50,9 @@ class Config {
 			},
 			'od/': {
 				urlPrefix: 'https://iitracin-my.sharepoint.com'
+			},
+			'sp/': {
+				urlPrefix: 'https://spotify.com/'
 			}
 		};
 
