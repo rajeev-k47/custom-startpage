@@ -12,23 +12,20 @@ class Config {
 			'r/': {
 				urlPrefix: 'https://reddit.com/r/'
 			},
-			'w/': {
-				urlPrefix: 'https://wikipedia.org/wiki/'
-			},
-			'u/': {
-				urlPrefix: 'https://unsplash.com/s/photos/'
-			},
 			'a/': {
 				urlPrefix: 'https://amazon.com/s?k='	
-			},
-			'e/': {
-				urlPrefix: 'https://ebay.com/sch/?_nkw='
 			},
 			'y/': {
 				urlPrefix: 'https://youtube.com/results?search_query='
 			},
-			'n/': {
-				urlPrefix: 'https://nhentai.net/g/'	
+			'i/': {
+				urlPrefix: 'https://instagram.com/'	
+			},
+			'g/': {
+				urlPrefix: 'https://www.github.com/'
+			},
+			'gr/': {
+				urlPrefix: 'https://www.github.com/rajeev-k47'
 			}
 		};
 
@@ -335,46 +332,46 @@ class Config {
 		// Dock
 		// A list of websites that will be generated and put on the dock
 		const dockSites = [
-			{
-				site: 'Reddit',
-				icon: 'reddit',
-				url: 'https://reddit.com/'
-			},
-			{
-				site: 'Github',
-				icon: 'github',
-				url: 'https://github.com/'
-			},
-			{
-				site: 'Facebook',
-				icon: 'facebook',
-				url: 'https://facebook.com/'
-			},
-			{
-				site: 'Gmail',
-				icon: 'gmail',
-				url: 'https://mail.google.com/'
-			},
-			{
-				site: 'Youtube',
-				icon: 'youtube',
-				url: 'https://youtube.com/'
-			},
-			{
-				site: 'GDrive',
-				icon: 'gdrive',
-				url: 'https://drive.google.com/'
-			},
-			{
-				site: 'Twitter',
-				icon: 'twitter',
-				url: 'https://twitter.com/'
-			},
-			{
-				site: 'Material.io',
-				icon: 'materialio',
-				url: 'https://material.io/'
-			}
+			// {
+			// 	site: 'Reddit',
+			// 	icon: 'reddit',
+			// 	url: 'https://reddit.com/'
+			// },
+			// {
+			// 	site: 'Github',
+			// 	icon: 'github',
+			// 	url: 'https://github.com/'
+			// },
+			// {
+			// 	site: 'Facebook',
+			// 	icon: 'facebook',
+			// 	url: 'https://facebook.com/'
+			// },
+			// {
+			// 	site: 'Gmail',
+			// 	icon: 'gmail',
+			// 	url: 'https://mail.google.com/'
+			// },
+			// {
+			// 	site: 'Youtube',
+			// 	icon: 'youtube',
+			// 	url: 'https://youtube.com/'
+			// },
+			// {
+			// 	site: 'GDrive',
+			// 	icon: 'gdrive',
+			// 	url: 'https://drive.google.com/'
+			// },
+			// {
+			// 	site: 'Twitter',
+			// 	icon: 'twitter',
+			// 	url: 'https://twitter.com/'
+			// },
+			// {
+			// 	site: 'Material.io',
+			// 	icon: 'materialio',
+			// 	url: 'https://material.io/'
+			// }
 		];
 
 		return dockSites;

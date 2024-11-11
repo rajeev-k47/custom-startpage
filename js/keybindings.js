@@ -30,7 +30,7 @@ class KeyBinding {
 			dashboard.toggleDashboard();
 			return;
 
-		} else if (this._keysPressed['Alt'] && e.key === 'e') {
+		} else if (this._keysPressed['Alt'] && e.key === 'z') {
 
 			e.preventDefault();
 			webMenu.toggleWebMenu();
