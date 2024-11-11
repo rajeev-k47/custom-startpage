@@ -18,6 +18,9 @@ class Config {
 			'y/': {
 				urlPrefix: 'https://youtube.com/results?search_query='
 			},
+			'yt/': {
+				urlPrefix: 'https://youtube.com/'
+			},
 			'i/': {
 				urlPrefix: 'https://instagram.com/'	
 			},
@@ -26,6 +29,27 @@ class Config {
 			},
 			'gr/': {
 				urlPrefix: 'https://www.github.com/rajeev-k47'
+			},
+			'cf/': {
+				urlPrefix: 'https://www.codeforces.com'
+			},
+			'ws/': {
+				urlPrefix: 'https://www.whatsapp.com'
+			},
+			'c/': {
+				urlPrefix: 'https://www.chatgpt.com/'
+			},
+			'l3/': {
+				urlPrefix: 'https://localhost:3000/'
+			},
+			'l55/': {
+				urlPrefix: 'https://localhost:5500/'
+			},
+			'l8/': {
+				urlPrefix: 'https://localhost:8000/'
+			},
+			'od/': {
+				urlPrefix: 'https://iitracin-my.sharepoint.com'
 			}
 		};
 
