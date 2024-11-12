@@ -53,6 +53,9 @@ class Config {
 			},
 			'sp/': {
 				urlPrefix: 'https://spotify.com/'
+			},
+			'find/': {
+				urlPrefix: 'https://ewasion.github.io/opendirectory-finder/'
 			}
 		};
 
