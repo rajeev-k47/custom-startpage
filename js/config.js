@@ -34,7 +34,7 @@ class Config {
 				urlPrefix: 'https://codeforces.com'
 			},
 			'ws/': {
-				urlPrefix: 'https://whatsapp.com'
+				urlPrefix: 'https://web.whatsapp.com'
 			},
 			'c/': {
 				urlPrefix: 'https://chatgpt.com/'
