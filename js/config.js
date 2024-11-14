@@ -57,8 +57,11 @@ class Config {
 			'find/': {
 				urlPrefix: 'https://ewasion.github.io/opendirectory-finder/'
 			},
-			'm/': {
-				urlPrefix: 'https://mail.google.com/u/'
+			'm/1': {
+				urlPrefix: 'https://mail.google.com/u/1'
+			},
+			'm/0': {
+				urlPrefix: 'https://mail.google.com/u/0'
 			}
 		};
 
