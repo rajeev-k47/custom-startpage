@@ -1,0 +1,13 @@
+{
+    "name": "Rigma",
+    "private": true,
+    "homepage": "https://rajeev-k47.github.io/custom-startpage/",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "compile": "pkg backend/server.cjs",
+        "register_windows": "node backend/register.cjs windows",
+        "register_linux": "node backend/register.cjs linux",
+        "register_mac": "node backend/register.cjs mac"
+    }
+}
