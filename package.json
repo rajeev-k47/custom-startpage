@@ -9,5 +9,8 @@
         "register_windows": "node backend/register.cjs windows",
         "register_linux": "node backend/register.cjs linux",
         "register_mac": "node backend/register.cjs mac"
+    },
+    "dependencies": {
+        "express": "^4.21.1"
     }
 }
