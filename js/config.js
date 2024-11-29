@@ -54,15 +54,12 @@ class Config {
 			'sp/': {
 				urlPrefix: 'https://spotify.com/'
 			},
-<<<<<<< HEAD
 			'find/': {
 				urlPrefix: 'https://ewasion.github.io/opendirectory-finder/'
 			},
 			'm/': {
 				urlPrefix: 'https://mail.google.com/mail/u/'
 			}
-=======
->>>>>>> 5f18b39 (<*/*>?)
 		};
 
 		return quickSearchData;
