@@ -54,12 +54,15 @@ class Config {
 			'sp/': {
 				urlPrefix: 'https://spotify.com/'
 			},
+<<<<<<< HEAD
 			'find/': {
 				urlPrefix: 'https://ewasion.github.io/opendirectory-finder/'
 			},
 			'm/': {
 				urlPrefix: 'https://mail.google.com/mail/u/'
 			}
+=======
+>>>>>>> 5f18b39 (<*/*>?)
 		};
 
 		return quickSearchData;
@@ -225,9 +228,9 @@ class Config {
 				category: 'information'
 			},
 			{
-				site: '4chan',
-				icon: '4chan',
-				url: 'https://4chan.org/',
+				site: 'Monketype',
+				icon: 'Monkeytype',
+				url: 'https://monkeytype.com/',
 				category: 'social'
 			},
 			{
