@@ -31,10 +31,70 @@
 + Weather Forecast - OpenWeatherMap and Geolocation Integration
 + Search Engine Selection
 + Dynamic Background
++ Local hosting on mlw devices
 + Web Menu with Fuzzy Search
 + Keyboard Navigation
 + Vanilla Javascript!
 + And many bugs!
+
+## Hosted
+
+
+> **Note**
+> This method assumes that you have [Node.js and npm](https://nodejs.org/en/download/) installed on your PC
+
+1. Clone this repository
+1. [Build](#build)
+1. Install node-(_windows/linux/mac_)
+   > Make sure to run ```npm i``` before continuing...
+   
+   _for Windows:_
+
+   ```bash
+   npm install -g node-windows && npm link node-windows
+   ```
+
+   _for Linux:_
+
+   ```bash
+   npm install -g node-linux && npm link node-linux
+   ```
+
+   _for Mac:_
+
+   ```bash
+   npm install -g node-mac && npm link node-mac
+   ```
+
+1. Register the local server as a system service
+
+   > **Note**
+   > Administrator privileges are required to run this command
+
+   _for Windows:_
+
+   ```bash
+   npm run register_windows
+   ```
+
+   _for Linux:_
+
+   ```bash
+   npm run register_linux
+   ```
+
+   _for Mac:_
+
+   ```bash
+   npm run register_mac
+   ```
+
+   This operation will create a service in your system to run the server on startup.
+
+   To uninstall the service, run the command again.
+
+After you register the server, you will be able to access Chevron on **_localhost:8000_**
+
 
 ## Keybindings
 
