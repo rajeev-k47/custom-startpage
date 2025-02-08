@@ -59,6 +59,18 @@ class Config {
 			},
 			'm/': {
 				urlPrefix: 'https://mail.google.com/mail/u/'
+			},
+    	'ds/': {
+				urlPrefix: 'https://discord.com/app'
+			},
+    	'at/': {
+        urlPrefix: 'https://attendence.iitr.ac.in:8000/'
+			},
+    	'fc/': {
+				urlPrefix: 'https://console.firebase.google.com/u/'
+			},
+      'gc/': {
+				urlPrefix: 'https://console.cloud.google.com/'
 			}
 		};
 
