@@ -71,7 +71,10 @@ class Config {
 			},
       'gc/': {
 				urlPrefix: 'https://console.cloud.google.com/'
-			}
+			},
+      'ac/':{
+        urlPrefix: 'https://academics.iitr.ac.in/'
+      }
 		};
 
 		return quickSearchData;
